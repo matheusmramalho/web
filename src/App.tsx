@@ -1,15 +1,9 @@
-function Button(props:{text: string}) {
-  return <button>{props.text}</button>
-}
+import { Widget } from "./components/Widget";
 
-function App() {
+export function App() {
   return (
     <div>
-      <Button text="enviar"/>
-      <Button text="ok"/>
-      <Button text="bonito"/>
+      <Widget />
     </div>
-  )
+  );
 }
-
-export default App
